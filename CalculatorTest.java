@@ -4,6 +4,11 @@ class Calculator
     {
         return a + b ;
     }
+
+    public int sub(int a , int b)
+    {
+        return a - b ;
+    }
 }
 
 
@@ -14,6 +19,8 @@ public class CalculatorTest
     {
         Calculator  calc = new Calculator();
         System.out.println("Result:" + calc.add(10, 20));
+
+        System.out.println("Result:" + calc.sub(10, 20));
         
     }
 }
